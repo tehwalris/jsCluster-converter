@@ -1,0 +1,1289 @@
+{
+  "metadata": {
+    "source": "monitor",
+    "startupTime": 1449179068951,
+    "writeTime": 1449179072676,
+    "testTag": "4a878e25"
+  },
+  "data": {
+    "logs": [
+      {
+        "type": "event",
+        "message": "Client 6ca3074d-4022-4e43-a7ce-12729a22c0e0 deregistered.",
+        "data": {
+          "type": "clientDeregister",
+          "uuid": "6ca3074d-4022-4e43-a7ce-12729a22c0e0"
+        }
+      },
+      {
+        "type": "event",
+        "message": "Client connected to websocket.",
+        "data": null
+      },
+      {
+        "type": "event",
+        "message": "Client efabeac4-41e5-4401-88d9-51abe02f53fc registered.",
+        "data": {
+          "type": "clientRegister",
+          "uuid": "efabeac4-41e5-4401-88d9-51abe02f53fc"
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 915d484c-5860-4f11-ba12-f373de17ff81 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "915d484c-5860-4f11-ba12-f373de17ff81",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 10000,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 915d484c-5860-4f11-ba12-f373de17ff81.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "915d484c-5860-4f11-ba12-f373de17ff81",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 915d484c-5860-4f11-ba12-f373de17ff81.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "915d484c-5860-4f11-ba12-f373de17ff81",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 915d484c-5860-4f11-ba12-f373de17ff81 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "915d484c-5860-4f11-ba12-f373de17ff81",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.022958
+            },
+            {
+              "event": "endSplit",
+              "time": 19.526837
+            },
+            {
+              "event": "startDistribution",
+              "time": 19.531151
+            },
+            {
+              "event": "endDistribution",
+              "time": 625.039216
+            },
+            {
+              "event": "startJoin",
+              "time": 1039.855527
+            },
+            {
+              "event": "endJoin",
+              "time": 1040.467331
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 8373d567-c80b-43c6-b2de-8ae478aef0ea started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "8373d567-c80b-43c6-b2de-8ae478aef0ea",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 15848,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 8373d567-c80b-43c6-b2de-8ae478aef0ea.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "8373d567-c80b-43c6-b2de-8ae478aef0ea",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 8373d567-c80b-43c6-b2de-8ae478aef0ea.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "8373d567-c80b-43c6-b2de-8ae478aef0ea",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 8373d567-c80b-43c6-b2de-8ae478aef0ea completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "8373d567-c80b-43c6-b2de-8ae478aef0ea",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.020191
+            },
+            {
+              "event": "endSplit",
+              "time": 17.999356
+            },
+            {
+              "event": "startDistribution",
+              "time": 18.004353
+            },
+            {
+              "event": "endDistribution",
+              "time": 585.8928940000001
+            },
+            {
+              "event": "startJoin",
+              "time": 924.741001
+            },
+            {
+              "event": "endJoin",
+              "time": 925.055391
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 2e608671-6351-4466-9712-4236a5a0c884 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "2e608671-6351-4466-9712-4236a5a0c884",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 25118,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 2e608671-6351-4466-9712-4236a5a0c884.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "2e608671-6351-4466-9712-4236a5a0c884",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 2e608671-6351-4466-9712-4236a5a0c884.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "2e608671-6351-4466-9712-4236a5a0c884",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 2e608671-6351-4466-9712-4236a5a0c884 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "2e608671-6351-4466-9712-4236a5a0c884",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.006892
+            },
+            {
+              "event": "endSplit",
+              "time": 10.232072
+            },
+            {
+              "event": "startDistribution",
+              "time": 10.234947
+            },
+            {
+              "event": "endDistribution",
+              "time": 570.014996
+            },
+            {
+              "event": "startJoin",
+              "time": 909.665747
+            },
+            {
+              "event": "endJoin",
+              "time": 910.0905769999999
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 3f35c6e6-76fc-42cb-b1db-517ef5c73ad9 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "3f35c6e6-76fc-42cb-b1db-517ef5c73ad9",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 39810,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 3f35c6e6-76fc-42cb-b1db-517ef5c73ad9.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "3f35c6e6-76fc-42cb-b1db-517ef5c73ad9",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 3f35c6e6-76fc-42cb-b1db-517ef5c73ad9.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "3f35c6e6-76fc-42cb-b1db-517ef5c73ad9",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 3f35c6e6-76fc-42cb-b1db-517ef5c73ad9 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "3f35c6e6-76fc-42cb-b1db-517ef5c73ad9",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.0061
+            },
+            {
+              "event": "endSplit",
+              "time": 10.043894
+            },
+            {
+              "event": "startDistribution",
+              "time": 10.046945
+            },
+            {
+              "event": "endDistribution",
+              "time": 566.974227
+            },
+            {
+              "event": "startJoin",
+              "time": 953.361568
+            },
+            {
+              "event": "endJoin",
+              "time": 953.786151
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 8f5eb7e3-32a1-4727-97e4-8c362fb089e8 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "8f5eb7e3-32a1-4727-97e4-8c362fb089e8",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 63095,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 8f5eb7e3-32a1-4727-97e4-8c362fb089e8.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "8f5eb7e3-32a1-4727-97e4-8c362fb089e8",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 8f5eb7e3-32a1-4727-97e4-8c362fb089e8.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "8f5eb7e3-32a1-4727-97e4-8c362fb089e8",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 8f5eb7e3-32a1-4727-97e4-8c362fb089e8 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "8f5eb7e3-32a1-4727-97e4-8c362fb089e8",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.006232
+            },
+            {
+              "event": "endSplit",
+              "time": 10.239887
+            },
+            {
+              "event": "startDistribution",
+              "time": 10.242902
+            },
+            {
+              "event": "endDistribution",
+              "time": 573.78596
+            },
+            {
+              "event": "startJoin",
+              "time": 993.6695560000001
+            },
+            {
+              "event": "endJoin",
+              "time": 994.090392
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 2c3e2ceb-1eb0-4963-9819-d8ce6b6a7630 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "2c3e2ceb-1eb0-4963-9819-d8ce6b6a7630",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 100000,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 2c3e2ceb-1eb0-4963-9819-d8ce6b6a7630.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "2c3e2ceb-1eb0-4963-9819-d8ce6b6a7630",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 2c3e2ceb-1eb0-4963-9819-d8ce6b6a7630.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "2c3e2ceb-1eb0-4963-9819-d8ce6b6a7630",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 2c3e2ceb-1eb0-4963-9819-d8ce6b6a7630 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "2c3e2ceb-1eb0-4963-9819-d8ce6b6a7630",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.006647
+            },
+            {
+              "event": "endSplit",
+              "time": 10.084983
+            },
+            {
+              "event": "startDistribution",
+              "time": 10.088004
+            },
+            {
+              "event": "endDistribution",
+              "time": 702.85731
+            },
+            {
+              "event": "startJoin",
+              "time": 1219.608126
+            },
+            {
+              "event": "endJoin",
+              "time": 1220.052673
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 2421a43b-4bee-48eb-851f-b798003a54b4 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "2421a43b-4bee-48eb-851f-b798003a54b4",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 158489,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 2421a43b-4bee-48eb-851f-b798003a54b4.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "2421a43b-4bee-48eb-851f-b798003a54b4",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 2421a43b-4bee-48eb-851f-b798003a54b4.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "2421a43b-4bee-48eb-851f-b798003a54b4",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 2421a43b-4bee-48eb-851f-b798003a54b4 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "2421a43b-4bee-48eb-851f-b798003a54b4",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.006831
+            },
+            {
+              "event": "endSplit",
+              "time": 10.451668
+            },
+            {
+              "event": "startDistribution",
+              "time": 10.455476
+            },
+            {
+              "event": "endDistribution",
+              "time": 597.0798990000001
+            },
+            {
+              "event": "startJoin",
+              "time": 1269.314285
+            },
+            {
+              "event": "endJoin",
+              "time": 1269.750634
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 97942e0d-ae11-4295-8400-ab4a5d0b81c1 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "97942e0d-ae11-4295-8400-ab4a5d0b81c1",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 251188,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 97942e0d-ae11-4295-8400-ab4a5d0b81c1.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "97942e0d-ae11-4295-8400-ab4a5d0b81c1",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 97942e0d-ae11-4295-8400-ab4a5d0b81c1.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "97942e0d-ae11-4295-8400-ab4a5d0b81c1",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 97942e0d-ae11-4295-8400-ab4a5d0b81c1 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "97942e0d-ae11-4295-8400-ab4a5d0b81c1",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.006413
+            },
+            {
+              "event": "endSplit",
+              "time": 10.144473
+            },
+            {
+              "event": "startDistribution",
+              "time": 10.14765
+            },
+            {
+              "event": "endDistribution",
+              "time": 578.35499
+            },
+            {
+              "event": "startJoin",
+              "time": 1477.017306
+            },
+            {
+              "event": "endJoin",
+              "time": 1477.50245
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task d514f8d2-6dd9-42dd-883b-0bfaaab14cf8 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "d514f8d2-6dd9-42dd-883b-0bfaaab14cf8",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 398107,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task d514f8d2-6dd9-42dd-883b-0bfaaab14cf8.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "d514f8d2-6dd9-42dd-883b-0bfaaab14cf8",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task d514f8d2-6dd9-42dd-883b-0bfaaab14cf8.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "d514f8d2-6dd9-42dd-883b-0bfaaab14cf8",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task d514f8d2-6dd9-42dd-883b-0bfaaab14cf8 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "d514f8d2-6dd9-42dd-883b-0bfaaab14cf8",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.006586
+            },
+            {
+              "event": "endSplit",
+              "time": 12.771169
+            },
+            {
+              "event": "startDistribution",
+              "time": 12.774965
+            },
+            {
+              "event": "endDistribution",
+              "time": 636.473219
+            },
+            {
+              "event": "startJoin",
+              "time": 1960.54972
+            },
+            {
+              "event": "endJoin",
+              "time": 1960.971534
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task c4f42c97-ea57-47ec-b0d4-4b7f2be48a05 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "c4f42c97-ea57-47ec-b0d4-4b7f2be48a05",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 630957,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task c4f42c97-ea57-47ec-b0d4-4b7f2be48a05.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "c4f42c97-ea57-47ec-b0d4-4b7f2be48a05",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task c4f42c97-ea57-47ec-b0d4-4b7f2be48a05.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "c4f42c97-ea57-47ec-b0d4-4b7f2be48a05",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task c4f42c97-ea57-47ec-b0d4-4b7f2be48a05 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "c4f42c97-ea57-47ec-b0d4-4b7f2be48a05",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.006647
+            },
+            {
+              "event": "endSplit",
+              "time": 10.663349
+            },
+            {
+              "event": "startDistribution",
+              "time": 10.667515
+            },
+            {
+              "event": "endDistribution",
+              "time": 576.614806
+            },
+            {
+              "event": "startJoin",
+              "time": 2483.419416
+            },
+            {
+              "event": "endJoin",
+              "time": 2483.851082
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 31aab7dd-68e5-4410-b5fd-d1692d19ae89 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "31aab7dd-68e5-4410-b5fd-d1692d19ae89",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 1000000,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 31aab7dd-68e5-4410-b5fd-d1692d19ae89.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "31aab7dd-68e5-4410-b5fd-d1692d19ae89",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 31aab7dd-68e5-4410-b5fd-d1692d19ae89.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "31aab7dd-68e5-4410-b5fd-d1692d19ae89",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 31aab7dd-68e5-4410-b5fd-d1692d19ae89 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "31aab7dd-68e5-4410-b5fd-d1692d19ae89",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.007518
+            },
+            {
+              "event": "endSplit",
+              "time": 16.288604
+            },
+            {
+              "event": "startDistribution",
+              "time": 16.292697
+            },
+            {
+              "event": "endDistribution",
+              "time": 567.2941920000001
+            },
+            {
+              "event": "startJoin",
+              "time": 3289.275555
+            },
+            {
+              "event": "endJoin",
+              "time": 3289.660441
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 5dff0c98-9b58-48dd-9907-91e26123e0f3 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "5dff0c98-9b58-48dd-9907-91e26123e0f3",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 1584893,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 5dff0c98-9b58-48dd-9907-91e26123e0f3.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "5dff0c98-9b58-48dd-9907-91e26123e0f3",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 5dff0c98-9b58-48dd-9907-91e26123e0f3.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "5dff0c98-9b58-48dd-9907-91e26123e0f3",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 5dff0c98-9b58-48dd-9907-91e26123e0f3 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "5dff0c98-9b58-48dd-9907-91e26123e0f3",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.00632
+            },
+            {
+              "event": "endSplit",
+              "time": 10.311067
+            },
+            {
+              "event": "startDistribution",
+              "time": 10.314379
+            },
+            {
+              "event": "endDistribution",
+              "time": 673.018979
+            },
+            {
+              "event": "startJoin",
+              "time": 4880.506733
+            },
+            {
+              "event": "endJoin",
+              "time": 4881.024308
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task c4672bd8-f055-4387-8d25-4af2c556c8ab started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "c4672bd8-f055-4387-8d25-4af2c556c8ab",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 2511886,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task c4672bd8-f055-4387-8d25-4af2c556c8ab.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "c4672bd8-f055-4387-8d25-4af2c556c8ab",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task c4672bd8-f055-4387-8d25-4af2c556c8ab.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "c4672bd8-f055-4387-8d25-4af2c556c8ab",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task c4672bd8-f055-4387-8d25-4af2c556c8ab completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "c4672bd8-f055-4387-8d25-4af2c556c8ab",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.017658
+            },
+            {
+              "event": "endSplit",
+              "time": 10.094296
+            },
+            {
+              "event": "startDistribution",
+              "time": 10.097696
+            },
+            {
+              "event": "endDistribution",
+              "time": 574.451704
+            },
+            {
+              "event": "startJoin",
+              "time": 7510.83119
+            },
+            {
+              "event": "endJoin",
+              "time": 7511.767995
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 4367795e-dd46-4802-83af-05dbd0ea1b12 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "4367795e-dd46-4802-83af-05dbd0ea1b12",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 3981071,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 4367795e-dd46-4802-83af-05dbd0ea1b12.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "4367795e-dd46-4802-83af-05dbd0ea1b12",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 4367795e-dd46-4802-83af-05dbd0ea1b12.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "4367795e-dd46-4802-83af-05dbd0ea1b12",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 4367795e-dd46-4802-83af-05dbd0ea1b12 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "4367795e-dd46-4802-83af-05dbd0ea1b12",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.014179
+            },
+            {
+              "event": "endSplit",
+              "time": 26.011224
+            },
+            {
+              "event": "startDistribution",
+              "time": 26.018527
+            },
+            {
+              "event": "endDistribution",
+              "time": 765.107533
+            },
+            {
+              "event": "startJoin",
+              "time": 10968.615884
+            },
+            {
+              "event": "endJoin",
+              "time": 10969.293647
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 43ada671-729c-44c7-8837-ac042527ba00 started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "43ada671-729c-44c7-8837-ac042527ba00",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 6309573,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task 43ada671-729c-44c7-8837-ac042527ba00.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "43ada671-729c-44c7-8837-ac042527ba00",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task 43ada671-729c-44c7-8837-ac042527ba00.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "43ada671-729c-44c7-8837-ac042527ba00",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task 43ada671-729c-44c7-8837-ac042527ba00 completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "43ada671-729c-44c7-8837-ac042527ba00",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.018347
+            },
+            {
+              "event": "endSplit",
+              "time": 18.293395
+            },
+            {
+              "event": "startDistribution",
+              "time": 18.299707
+            },
+            {
+              "event": "endDistribution",
+              "time": 719.0133510000001
+            },
+            {
+              "event": "startJoin",
+              "time": 15680.257573
+            },
+            {
+              "event": "endJoin",
+              "time": 15680.61272
+            }
+          ]
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task ca090aeb-d1d9-4008-890f-3fcd0648587e started",
+        "data": {
+          "type": "taskStart",
+          "uuid": "ca090aeb-d1d9-4008-890f-3fcd0648587e",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "request": {
+            "task": "primeDemo",
+            "input": {
+              "executionMode": "cluster",
+              "center": 10000000,
+              "range": 2000
+            }
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Distributed task ca090aeb-d1d9-4008-890f-3fcd0648587e.",
+        "data": {
+          "type": "taskDistribute",
+          "uuid": "ca090aeb-d1d9-4008-890f-3fcd0648587e",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Joined task ca090aeb-d1d9-4008-890f-3fcd0648587e.",
+        "data": {
+          "type": "taskJoin",
+          "uuid": "ca090aeb-d1d9-4008-890f-3fcd0648587e",
+          "distribution": {
+            "efabeac4-41e5-4401-88d9-51abe02f53fc": 2001
+          }
+        }
+      },
+      {
+        "type": "event",
+        "message": "Task ca090aeb-d1d9-4008-890f-3fcd0648587e completed",
+        "data": {
+          "type": "taskComplete",
+          "uuid": "ca090aeb-d1d9-4008-890f-3fcd0648587e",
+          "clientUUID": "efabeac4-41e5-4401-88d9-51abe02f53fc",
+          "timeLog": [
+            {
+              "event": "startTask",
+              "time": 0
+            },
+            {
+              "event": "startSplit",
+              "time": 0.008845
+            },
+            {
+              "event": "endSplit",
+              "time": 12.287522
+            },
+            {
+              "event": "startDistribution",
+              "time": 12.29194
+            },
+            {
+              "event": "endDistribution",
+              "time": 711.681571
+            },
+            {
+              "event": "startJoin",
+              "time": 22676.349517
+            },
+            {
+              "event": "endJoin",
+              "time": 22676.989992
+            }
+          ]
+        }
+      }
+    ],
+    "clients": {
+      "efabeac4-41e5-4401-88d9-51abe02f53fc": {
+        "position": {
+          "x": "0px",
+          "y": "-147px"
+        }
+      }
+    }
+  }
+}

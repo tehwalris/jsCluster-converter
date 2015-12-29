@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "source": "client",
+    "startupTime": 1448921307741,
+    "writeTime": 1448923243596,
+    "clientUUID": "b234e60e-0c11-40db-923e-9be1c4b71c90",
+    "testTag": "365b4692"
+  },
+  "data": [
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 2228.9999999999995
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "metadata": {
+    "source": "client",
+    "startupTime": 1449170494330,
+    "writeTime": 1449170787684,
+    "clientUUID": "6339e79a-3346-42b6-bee5-8e12446617d3",
+    "testTag": "8321df3f"
+  },
+  "data": [
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1015
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 916.0000000000146
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 913.0049999999901
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 942
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 914
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 915.9950000000099
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 922.9999999999854
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 934.0000000000146
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 938.9999999999854
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 927.0050000000192
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 913.9949999999953
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 928
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 920.0050000000047
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 906.9949999999953
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 920.0050000000047
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 923.9949999999808
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 919.0000000000146
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 920.9999999999854
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 916.0050000000047
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 914
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 919.9949999999953
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 932.0000000000146
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 936.9999999999854
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 971.0000000000146
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 927.0049999999901
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 935.9950000000099
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 932.0050000000047
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 933.9949999999953
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 938
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 933.0049999999901
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 931.9949999999953
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 933.0000000000146
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1292.9999999999854
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 933.0000000000146
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 931.0049999999901
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 957
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 933.9950000000099
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 930
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 918
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 923.9999999999854
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 921.0050000000192
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 918.9949999999953
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 921
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 925.9999999999927
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 919.0049999999974
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 930.9950000000099
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 937.9999999999927
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 929.0050000000047
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 929.9949999999953
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 916
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 911
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 912
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 913.0050000000047
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 935.9949999999953
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 920.0050000000047
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 944.9950000000026
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 934.9999999999927
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 943.0000000000073
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 931.9999999999927
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 933
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 924.0000000000073
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 938.0049999999974
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 919.9949999999953
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 929.0049999999974
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1140.99500000001
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 933.9999999999927
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 939.0050000000047
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 923
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 931.9950000000026
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 919.0049999999974
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 924.9950000000026
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 925
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 930.9999999999927
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 934.0000000000073
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 936
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 934.9999999999927
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 930.0000000000073
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 931
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 921.0049999999974
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 933
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 923.994999999999
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 937
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1054
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 965
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 925.005000000001
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 930
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 955.9950000000026
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 999.0049999999974
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1091.994999999999
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 951.005000000001
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 940.9950000000026
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 939.0049999999974
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1081.994999999999
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 920.005000000001
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 931.994999999999
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1010.0000000000036
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1057
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1000
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1040.0049999999992
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 993.994999999999
+    },
+    {
+      "settings": {
+        "executionMode": "cluster",
+        "center": 10000,
+        "range": 2000
+      },
+      "runtime": 1258.005000000001
+    }
+  ]
+}
